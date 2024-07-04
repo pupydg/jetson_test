@@ -8,8 +8,8 @@ using namespace std;
 
 #define E1A 12 
 #define E1B 13
-#define E2A 22
-#define E2B 23
+// #define E2A 22
+// #define E2B 23
 
 int ticks_L,ticks_R;
 static bool end_this_program = false;
@@ -37,7 +37,7 @@ int main()
     signal(SIGINT,signalHandler);
     GPIO::setmode(GPIO::BOARD);
     GPIO::setup(E1A,GPIO::IN);
-    GPIO::setup(E2A,GPIO::IN);
+    // GPIO::setup(E2A,GPIO::IN);
     GPIO::add_event_detect(E1A,GPIO::RISING,get_ticks,10);
     while (!end_this_program)
     {
