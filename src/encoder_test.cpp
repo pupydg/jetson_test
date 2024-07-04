@@ -6,8 +6,8 @@
 
 using namespace std;
 
-#define E1A 12 
-#define E1B 13
+#define E1A 21 
+#define E1B 23
 // #define E2A 22
 // #define E2B 23
 
