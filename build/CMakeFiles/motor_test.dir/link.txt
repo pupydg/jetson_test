@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/motor_test.dir/src/motor_test.cpp.o -o motor_test  -Wl,-rpath,/usr/local/lib /usr/local/lib/libJetsonGPIO.so.1.2.5 
